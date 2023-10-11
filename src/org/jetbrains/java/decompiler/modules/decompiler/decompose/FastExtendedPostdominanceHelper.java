@@ -68,7 +68,7 @@ public class FastExtendedPostdominanceHelper {
     filter.initialize();
 
     // Remove postdominance of exception ranges
-    filterOnExceptionRanges(filter);
+    // filterOnExceptionRanges(filter);
 
     // Use the dominator tree to filter postdominance nodes that are not dominated by the current node
     filterOnDominance(filter);
